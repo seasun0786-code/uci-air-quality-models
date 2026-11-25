@@ -1,0 +1,47 @@
+{
+  "model_target": "NO2(GT)",
+  "classification_threshold_training_median": 102.0,
+  "rows_original_clean_csv": 9357,
+  "rows_used": 7715,
+  "rows_train": 6172,
+  "rows_test": 1543,
+  "regression": {
+    "MAE": 26.102247457822944,
+    "RMSE": 37.62668066476824,
+    "R2": 0.5126553424262908
+  },
+  "classification": {
+    "Accuracy": 0.8963058976020739,
+    "Precision": 0.9617097061442564,
+    "Recall": 0.9022556390977443,
+    "F1": 0.9310344827586207
+  },
+  "confusion_matrix_actual_by_predicted": [
+    [
+      303,
+      43
+    ],
+    [
+      117,
+      1080
+    ]
+  ],
+  "features": [
+    "PT08.S1(CO)",
+    "PT08.S2(NMHC)",
+    "PT08.S3(NOx)",
+    "PT08.S4(NO2)",
+    "PT08.S5(O3)",
+    "T",
+    "RH",
+    "AH"
+  ],
+  "train_period": [
+    "2004-03-10 18:00:00",
+    "2005-01-28 10:00:00"
+  ],
+  "test_period": [
+    "2005-01-28 11:00:00",
+    "2005-04-04 14:00:00"
+  ]
+}
